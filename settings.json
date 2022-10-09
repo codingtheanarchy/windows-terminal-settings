@@ -4,8 +4,19 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "prevTab"
+            },
+            "keys": "shift+h"
         },
         {
             "command": 
@@ -16,23 +27,12 @@
             "keys": "ctrl+alt+l"
         },
         {
-            "command": 
-            {
-                "action": "prevTab"
-            },
-            "keys": "shift+k"
-        },
-        {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": 
@@ -49,10 +49,6 @@
                 "direction": "up"
             },
             "keys": "ctrl+k"
-        },
-        {
-            "command": "closePane",
-            "keys": "shift+q"
         },
         {
             "command": "unbound",
@@ -99,6 +95,22 @@
             "keys": "alt+shift+plus"
         },
         {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+q"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+k"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
             "command": 
             {
                 "action": "moveFocus",
@@ -110,17 +122,17 @@
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "down"
+                "direction": "left"
             },
-            "keys": "ctrl+j"
+            "keys": "ctrl+h"
         },
         {
             "command": 
             {
                 "action": "moveFocus",
-                "direction": "left"
+                "direction": "down"
             },
-            "keys": "ctrl+h"
+            "keys": "ctrl+j"
         },
         {
             "command": 
@@ -144,6 +156,13 @@
                 "split": "down"
             },
             "keys": "ctrl+alt+j"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+t"
         }
     ],
     "copyFormatting": "none",
