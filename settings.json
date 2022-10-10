@@ -16,7 +16,7 @@
             {
                 "action": "prevTab"
             },
-            "keys": "shift+h"
+            "keys": "shift+left"
         },
         {
             "command": 
@@ -147,7 +147,7 @@
             {
                 "action": "nextTab"
             },
-            "keys": "shift+l"
+            "keys": "shift+right"
         },
         {
             "command": 
